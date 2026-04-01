@@ -14,8 +14,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user: "mariyafrancis960@gmail.com",
-        pass: "qyronbspnvxcbkig" // ⚠️ App Password
+        user: "your@gmail.com",
+        pass: "app password" // ⚠️ App Password
     }
 });
 
@@ -33,8 +33,8 @@ app.post("/send-alert", async (req, res) => {
 
     try {
         await transporter.sendMail({
-            from: "mariyafrancis960@gmail.com",
-            to: "mariyafrancis960@gmail.com",
+            from: "gmail@gmail.com",
+            to: "gmail@gmail.com",
             subject: "Emergency Alert",
             text: message
         });
