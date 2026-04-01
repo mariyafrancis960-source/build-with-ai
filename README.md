@@ -1,54 +1,50 @@
 # Project Name
 
 ## Problem Statement
-Explain clearly what problem your project is solving.
+In emergency situations such as fires, medical crises, or security threats, people often panic and fail to take the right actions quickly. There is also a delay in informing authorities and sharing accurate location details, which can lead to serious consequences or loss of life.
 
 ## Project Description
-Describe your solution, how it works, and what makes it useful.
+Our solution, SilentSOS, is a smart emergency response system designed to provide instant alerts, real-time location sharing, and guided assistance during critical situations such as fire accidents, medical emergencies, and security threats.
+
+It simplifies emergency handling by reducing panic, saving time, and ensuring that help is informed quickly and accurately.
 
 ---
 
 ## Google AI Usage
 ### Tools / Models Used
-- 
+- Google Generative AI API
+Gemini Model (gemini-pro)
 
 ### How Google AI Was Used
-Explain clearly how AI is integrated into your project.
+In SilentSOS, Artificial Intelligence is integrated as a real-time emergency guidance system that works alongside the alert mechanism..
 
 ---
 
-## Proof of Google AI Usage
-Attach screenshots in a `/proof` folder:
 
-![AI Proof](./proof/screenshot1.png)
 
 ---
 
 ## Screenshots 
-Add project screenshots:
 
-![Screenshot1](./assets/screenshot1.png)  
-![Screenshot2](./assets/screenshot2.png)
+![Screenshot1]("C:\Users\mariy\OneDrive\Pictures\Screenshots\screenshot1.png")  
 
----
 
-## Demo Video
-Upload your demo video to Google Drive and paste the shareable link here(max 3 minutes).
-[Watch Demo](#)
+
+
 
 ---
 
-## Installation Steps
-
-```bash
 # Clone the repository
 git clone <your-repo-link>
 
-# Go to project folder
-cd project-name
+# Go into the project folder
+cd SilentSOS
 
-# Install dependencies
+# Go to backend folder
+cd Backend
+
+# Install backend dependencies
 npm install
 
-# Run the project
-npm start
+# Start backend server
+node server.js
